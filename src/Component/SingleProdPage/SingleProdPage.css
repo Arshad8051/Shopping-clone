@@ -1,0 +1,113 @@
+/* SingleProdPage.css */
+
+/* Container styles */
+.outcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.product1{
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.productimg {
+    
+    /* Set the maximum width to ensure responsiveness */
+    /* margin-left: 10%; */
+    margin-top: 2%;
+    margin-right: 20%;
+    width: 50%;
+    height: 40%;
+    /* border: 1px solid #ccc; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+.smallimg{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 20%;
+    
+}
+
+.product2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0px;
+    margin-right: 1rem;
+}
+
+.product3{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0px;
+    margin-right: 1rem;
+
+}
+
+
+/* Product details styles */
+h1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+h3 {
+    color: green;
+}
+
+.heading {
+    color: black;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Product description styles */
+
+.container1 {
+    /* border: #ccc solid; */
+    margin: 50px;
+    width: 45%;
+    height: 90%;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+}
+
+.container2 {}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: green; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Add more styles as needed */

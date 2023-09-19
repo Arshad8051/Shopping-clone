@@ -1,0 +1,40 @@
+/* Assuming your HTML structure is similar to the previous examples */
+
+/* Style the dropdown container */
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  /* Style the dropdown content */
+  .dropdown-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style the links */
+  .dropdown-content a{
+    margin-right: 30px;
+    padding-left: 40px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    /* specifies a gap of 30px on the right side */
+ }
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+ a:hover {
+    background-color: pink; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+    cursor: pointer;
+  }
+  
+  /* Show the dropdown content on hover */
+  

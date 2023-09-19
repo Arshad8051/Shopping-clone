@@ -1,0 +1,60 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.logo h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin: 0;
+  color: #333; /* Customize the color */
+  text-transform: uppercase; /* Optional: Make the logo text uppercase */
+}
+
+.navbar-center {
+  flex: 3;
+  margin: 0 20px;
+}
+
+.search {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-link {
+  margin-left: 20px;
+  position: relative;
+}
+
+.navbar-link a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Add hover effect to navbar-link */
+.navbar-link a:hover {
+  color: #ff5722; /* Customize the hover color */
+}
+
+/* Add additional styles as needed */

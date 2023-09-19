@@ -1,0 +1,78 @@
+/* Footer.css */
+
+/* Footer.css */
+
+.footer-container {
+    width: max-content;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px; /* Add margin on left and right, and reduce top and bottom padding */
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 5px; /* Reduce padding for each section */
+    margin: 0 10px; /* Add margin on both left and right sides */
+   
+  }
+  .footer-section 
+  
+  .footer-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .heading-f{
+    color: black;
+  }
+  
+  .footer-section  {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 5px 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .contact-us {
+    flex-basis: 5%;
+  }
+  
+  .facebookimg{
+         width: fit-content;
+         margin-right: 10px;
+  }
+
+  .instagramimg{
+    width: fit-content;
+    margin-right: 10px;
+     
+  }
+  .linkedinimg{
+    width: fit-content;
+    margin-right: 10px;
+  }
+  .youtubeimg{
+    width: fit-content;
+  }
+  
+  /* Additional styling as needed */
+  
