@@ -1,0 +1,79 @@
+/* Add this CSS to a separate .css file or use a CSS-in-JS solution like styled-components */
+
+/* Style the form container */
+.new2{
+    background-color: whitesmoke;
+}
+.inner{
+   
+   
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+   margin-top: 10px;
+    border: 1px solid white;
+ 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .image{
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       
+  }
+  
+  /* Style the form heading */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style form labels */
+  label {
+   
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style form input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+  }
+  
+  /* Style the submit button */
+
+  .term{
+    font-weight: bold;
+  }
+  
+  /* Hover effect for the submit button */
+  button[type="submit"]:hover {
+    background-color: green;
+  }
+  .signup-link {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .signup-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    text-decoration: none; /* Remove underline from the Link */
+    display: inline-block;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+   

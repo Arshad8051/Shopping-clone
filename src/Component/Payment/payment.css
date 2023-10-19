@@ -1,0 +1,53 @@
+/* PaymentForm.css */
+
+/* Style for the container */
+.payment-container {
+    width: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .pd{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Style for select dropdown */
+  select,
+  p4 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the Pay button */
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style for the payment status message */
+  .payment-status {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style for narrower 'p4' element */
+  p.p4 {
+    width: 20%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text within the element */
+  }
+  
+  /* Additional styles can be added as needed. */
+  

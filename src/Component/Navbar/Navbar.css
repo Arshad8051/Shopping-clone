@@ -4,9 +4,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+ 
   padding: 10px 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 5px rgba(209, 18, 18, 0.1); */
 }
 
 .navbar-left {
@@ -15,10 +15,10 @@
 
 .logo h1 {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 24px;
+  font-size: 30px;
   margin: 0;
-  color: #333; /* Customize the color */
-  text-transform: uppercase; /* Optional: Make the logo text uppercase */
+  color:deeppink; /* Customize the color */
+  text-transform: lowercase; Optional: Make the logo text uppercase
 }
 
 .navbar-center {
@@ -27,7 +27,7 @@
 }
 
 .search {
-  width: 90%;
+  width: 50%;
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
@@ -50,11 +50,57 @@
   text-decoration: none;
   color: #333;
   font-size: 16px;
+  font-style: oblique;
 }
 
 /* Add hover effect to navbar-link */
 .navbar-link a:hover {
-  color: #ff5722; /* Customize the hover color */
+  color: #ff229f; /* Customize the hover color */
 }
 
 /* Add additional styles as needed */
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-center {
+    margin: 10px 0;
+  }
+
+  .search {
+    width: 100%;
+  }
+  
+  .navbar-link {
+    margin-left: 0;
+    margin-top: 10px;
+    border-radius: 1px, solid,black;
+  }
+  .navbar-right{
+    justify-content: space-between;
+    border: #333;
+  }
+}
+
+
+/* Media query for tablet devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar-center {
+    margin: 0 10px;
+  }
+}
+
+/* Media query for laptop/desktop devices */
+@media (min-width: 1025px) {
+  /* Add additional laptop/desktop-specific styles here if needed */
+}
+
+
+
+
+
